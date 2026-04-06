@@ -4,77 +4,89 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Service Areas — GreenScape Pros</title>
+<meta name="description" content="Landscaping services across Bozeman, Belgrade, Big Sky, and the Gallatin Valley.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 <header class="site-header">
-  <div class="container header-inner">
+  <div class="container nav">
     <a href="index.html" class="logo">Green<span>Scape</span> Pros</a>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="areas.html" class="active">Service Areas</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <a href="tel:+14065550123" class="header-phone">📞 (406) 555-0123</a>
-    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="areas.html" class="active">Service Areas</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="header-phone">
+      <span class="header-phone-number">(406) 555-0123</span>
+      <a href="tel:+14065550123" class="btn btn-call">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Now
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <section class="page-header">
   <div class="container">
     <h1>Service Areas</h1>
-    <p>Proudly serving homeowners across Gallatin Valley.</p>
+    <p>Proudly serving homeowners across Gallatin Valley and beyond.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="areas-grid">
-      <div class="area-card"><h3>Bozeman</h3><p>Full-service landscaping & lawn care across all neighborhoods.</p></div>
-      <div class="area-card"><h3>Belgrade</h3><p>Weekly mowing, design, and hardscape installs.</p></div>
-      <div class="area-card"><h3>Big Sky</h3><p>Mountain-property landscaping and seasonal cleanups.</p></div>
-      <div class="area-card"><h3>Manhattan</h3><p>Reliable lawn care and irrigation services.</p></div>
-      <div class="area-card"><h3>Four Corners</h3><p>Custom landscape design and maintenance plans.</p></div>
-      <div class="area-card"><h3>Gallatin Gateway</h3><p>Hardscaping and full-property care.</p></div>
-      <div class="area-card"><h3>Three Forks</h3><p>Lawn care and seasonal services.</p></div>
-      <div class="area-card"><h3>Livingston</h3><p>Design consultations and project work.</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Bozeman</h3><p>Full-service across all neighborhoods</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Belgrade</h3><p>Mowing, design, and hardscape</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Big Sky</h3><p>Mountain-property landscaping</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Manhattan</h3><p>Lawn care and irrigation</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Four Corners</h3><p>Custom design and maintenance</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Gallatin Gateway</h3><p>Hardscaping and full-property care</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Three Forks</h3><p>Lawn care and seasonal services</p></div>
+      <div class="area-card"><div class="area-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><h3>Livingston</h3><p>Design consultations and projects</p></div>
     </div>
-    <p class="center-note">Don't see your town? Give us a call — we may still be able to help.</p>
   </div>
 </section>
 
 <section class="cta-banner">
-  <div class="container cta-inner">
+  <div class="container">
     <h2>Serving your neighborhood</h2>
-    <p>Get a free quote in under 24 hours.</p>
-    <a href="contact.html" class="btn btn-light">Get My Free Quote</a>
+    <p>Don't see your town? Give us a call — we may still be able to help.</p>
+    <a href="contact.html" class="btn btn-primary">Get My Free Quote</a>
   </div>
 </section>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div><div class="logo">Green<span>Scape</span> Pros</div><p>Locally owned. Insured. Serving Gallatin Valley since 2015.</p></div>
-    <div><h4>Contact</h4><p><a href="tel:+14065550123">(406) 555-0123</a></p><p>hello@greenscapepros.demo</p></div>
-    <div><h4>Hours</h4><p>Mon–Sat: 7am – 6pm</p></div>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo">Green<span>Scape</span> Pros</a><p>Locally owned landscaping serving the Gallatin Valley since 2015. Licensed and fully insured.</p></div>
+      <div class="footer-col"><h4>Company</h4><a href="about.html">About</a><a href="services.html">Services</a><a href="areas.html">Service Areas</a><a href="contact.html">Contact</a></div>
+      <div class="footer-col"><h4>Services</h4><a href="services.html">Lawn Care</a><a href="services.html">Landscape Design</a><a href="services.html">Hardscaping</a><a href="services.html">Snow Removal</a></div>
+      <div class="footer-col"><h4>Contact</h4><a href="tel:+14065550123">(406) 555-0123</a><a href="mailto:hello@greenscapepros.demo">hello@greenscapepros.demo</a><a href="#">Bozeman, MT</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 GreenScape Pros. All rights reserved.</span><a href="https://bigskyautomation.com">Demo by Big Sky Automation</a></div>
   </div>
-  <div class="footer-bottom">© 2026 GreenScape Pros · Demo site by Big Sky Automation</div>
 </footer>
 
 <div class="chat-widget">
-  <button class="chat-bubble" aria-label="Open chat">💬 Chat</button>
+  <button class="chat-bubble" aria-label="Open chat"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></button>
   <div class="chat-popup">
-    <div class="chat-header">Hi! How can we help?</div>
+    <div class="chat-header"><h4>Hi! How can we help?</h4><p>We typically reply within minutes</p></div>
     <div class="chat-body">
-      <p>Send us a message and we'll text you right back.</p>
-      <input type="text" class="chat-input" placeholder="Your name">
-      <input type="text" class="chat-input" placeholder="Phone number">
-      <input type="text" class="chat-input" placeholder="What can we help with?">
-      <button class="chat-send btn btn-primary">Send Message</button>
+      <div class="chat-message">Hey there! Tell us a bit about your yard and we'll text you right back with a free quote.</div>
+      <div class="chat-input-group">
+        <input type="text" class="chat-input" placeholder="Your name">
+        <input type="tel" class="chat-input" placeholder="Phone number">
+        <input type="text" class="chat-input" placeholder="What can we help with?">
+        <button class="chat-send">Send Message</button>
+      </div>
     </div>
   </div>
 </div>
