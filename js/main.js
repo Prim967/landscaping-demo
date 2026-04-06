@@ -1,3 +1,22 @@
+// Scroll progress bar
+const progressBar = document.createElement('div');
+progressBar.className = 'scroll-progress';
+document.body.appendChild(progressBar);
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  progressBar.style.width = pct + '%';
+}, { passive: true });
+
+// Hero parallax
+const heroBg = document.querySelector('.hero-bg');
+if (heroBg) {
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y < 800) heroBg.style.transform = `translateY(${y * 0.4}px) scale(${1 + y * 0.0005})`;
+  }, { passive: true });
+}
+
 // Scroll reveal
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(e => {
